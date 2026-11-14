@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="./output.css" rel="stylesheet">
+    <title>Простой пример</title>
+</head>
+<body class="bg-slate-950 h-200 flex flex-col gap-3 items-center justify-center align-items">
+    <h1 class="text-3xl font-semibold text-white">
+        <pre>Расчет среднего значения элементов произвольного массива</pre>
+    </h1>
+    <div class="flex flex-row gap-35">
+        <div id="outrose" class="flex flex-col gap-3">
+            <button id="notWW" class="bg-rose-800 px-20 py-2 rounded-3xl shadow-md shadow-rose-700/50 text-white hover:bg-rose-950 hover:shadow-rose-800/50"> not Web Worker </button>
+        </div>
+        <div id="outsky" class="flex flex-col gap-3">
+            <button id="withWW" class="bg-sky-700 px-20 py-2 rounded-3xl shadow-md shadow-sky-700/50 text-white hover:bg-sky-900 hover:shadow-sky-800/50"> with Web Worker </button>
+        </div>
+    </div>
+    <p id="counter" class="px-6 py-2 border border-violet-800 inset-shadow-sm inset-shadow-violet-500/50 text-white font-semibold rounded-3xl"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
