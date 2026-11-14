@@ -1,4 +1,4 @@
-#WebWorker
+# WebWorker
 
 For styles via tailwindCSS:
 
